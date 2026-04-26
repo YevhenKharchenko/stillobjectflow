@@ -1,5 +1,5 @@
 .footer {
-  background: #111415;
+  background: #2c2b28;
 
   @include media(desktop) {
   }
@@ -41,40 +41,21 @@
   gap: 16px;
 
   @include media(desktop) {
-    flex-direction: row;
-    justify-content: center;
-    gap: 36px;
   }
 }
 
 .footer-list-item {
   @include media(desktop) {
-    &:first-child {
-      position: relative;
-
-      &::after {
-        content: '|';
-        font-family: 'Rajdhani', sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: center;
-        color: #54f4ff;
-        position: absolute;
-        bottom: 0;
-        right: -17px;
-      }
-    }
   }
 }
 
 .footer-link {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 500;
+  font-family: 'Petrona', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #54f4ff;
+  color: #c8bfb0;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -87,12 +68,12 @@
 }
 
 .footer-bottom-text {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Petrona', sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 1.5;
   text-align: center;
-  color: #54f4ff;
+  color: #c8bfb0;
 
   @include media(desktop) {
     font-size: 12px;
