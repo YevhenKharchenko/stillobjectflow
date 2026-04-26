@@ -1,0 +1,54 @@
+.about-section {
+  background: #f5ebdb;
+
+  @include media(desktop) {
+  }
+}
+
+.about-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 262px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/about/about-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 156px;
+    max-width: 1440px;
+    background-image: url(../img/about/about-bg-desk.jpg);
+    background-position: bottom right;
+  }
+}
+
+.about-container {
+  @include media(desktop) {
+  }
+}
+
+.about-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-title {
+  @include media(desktop) {
+  }
+}
+
+.about-text {
+  font-family: 'Petrona', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2b28;
+
+  @include media(desktop) {
+    font-size: 18px;
+    max-width: 544px;
+  }
+}

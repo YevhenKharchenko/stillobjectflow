@@ -1,6 +1,4 @@
 .gameplay-section {
-  background: #0676bd;
-
   @include media(desktop) {
   }
 }
@@ -24,66 +22,36 @@
   }
 }
 
-.gameplay-title {
+.gameplay-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-
+.gameplay-title {
   @include media(desktop) {
-    flex-direction: row;
-    align-items: center;
   }
 }
 
 .gameplay-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
 
   @include media(desktop) {
-    max-width: 544px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 .gameplay-list-item {
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-title {
-  font-family: 'Onest', sans-serif;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.3;
-  color: #fff;
-  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
 
   @include media(desktop) {
-    font-size: 28px;
-  }
-}
-
-.gameplay-text-span {
-  color: #ffff67;
-
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-text {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #fff;
-
-  @include media(desktop) {
-    font-size: 18px;
+    max-width: 352px;
   }
 }
 
@@ -92,7 +60,29 @@
   margin-right: auto;
 
   @include media(desktop) {
-    min-width: 544px;
-    margin: 0;
+  }
+}
+
+.gameplay-item-title {
+  font-family: 'Petrona', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2c2b28;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Petrona', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2b28;
+
+  @include media(desktop) {
+    font-size: 18px;
   }
 }

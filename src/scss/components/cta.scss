@@ -1,0 +1,45 @@
+.cta-section {
+  @include media(desktop) {
+  }
+}
+
+.cta-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 167px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 187px;
+    max-width: 1440px;
+  }
+}
+
+.cta-container {
+  @include media(desktop) {
+  }
+}
+
+.cta-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.cta-title {
+  text-align: center;
+  margin-bottom: 36px;
+
+  @include media(desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.cta-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
