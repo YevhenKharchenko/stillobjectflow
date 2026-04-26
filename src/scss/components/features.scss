@@ -1,0 +1,93 @@
+.features-section {
+  background: radial-gradient(50% 50% at 50% 50%, #412a4e 0%, #2b1b33 100%);
+
+  @include media(desktop) {
+  }
+}
+
+.features-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.features-container {
+  @include media(desktop) {
+  }
+}
+
+.features-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.features-title {
+  @include media(desktop) {
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.features-list-item {
+  background: #482e56;
+  border-radius: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.features-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
+
+.features-item-title {
+  font-family: 'Onest', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #54f4ff;
+
+  @include media(desktop) {
+    font-size: 28px;
+  }
+}
+
+.features-item-text {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
